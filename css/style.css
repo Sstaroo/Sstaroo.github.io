@@ -120,7 +120,6 @@ strong { color: var(--text-strong); font-weight: 700; }
   justify-content: center;
   margin-bottom: 1.1rem;
   box-shadow: 0 3px 14px rgba(28, 54, 84, 0.22);
-  letter-spacing: 0.05em;
   flex-shrink: 0;
 }
 
@@ -130,7 +129,7 @@ strong { color: var(--text-strong); font-weight: 700; }
   width: 120%;
   height: 120%;
   object-fit: cover;
-  object-position: center top;
+  object-position: center;
   border-radius: 50%;
   display: block;
 }
