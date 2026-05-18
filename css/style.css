@@ -168,6 +168,26 @@ strong { color: var(--text-strong); font-weight: 700; }
   color: var(--text-muted);
 }
 
+.btn-cv {
+  display: inline-block;
+  margin-top: 0.9rem;
+  padding: 0.35rem 0.95rem;
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+  border: 1.5px solid var(--accent);
+  border-radius: 20px;
+  text-decoration: none;
+  transition: background 0.18s, color 0.18s;
+}
+
+.btn-cv:hover {
+  background: var(--accent);
+  color: #ffffff;
+}
+
 /* ---- Nav Widget ---- */
 .widget-label {
   font-family: var(--sans);
